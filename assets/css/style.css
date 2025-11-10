@@ -22,16 +22,19 @@ header h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   background: linear-gradient(45deg, #ff0000, #ff7b00, #ffeb3b, #00e676, #00b0ff, #d500f9);
-  -webkit-background-clip: text;
   color: transparent;
   animation: colorMove 5s linear infinite;
   background-size: 400% 400%;
 }
 
 @keyframes colorMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% { 
+    background-position: 0% 50%;
+  }
+ 100% { 
+  background-position: 100% 50%;
+ }
+
 }
 
 .tagline {
